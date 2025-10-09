@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: -o-linear-gradient(to right, #00aaff, #00ddff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 450px;
+    background-color: #fff;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #0077cc;
+    margin-bottom: 25px;
+
+}
+
+label {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 25px;
+
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+
+}
+
+.btn-cadastrar {
+    background-color: #0077cc;
+
+}
+.btn-cadastrar:hover {
+    background-color: #0077cc;
+
+}
+.btn-limpar {
+    background-color: #777;
+
+}
+
+.btn-limpar:hover {
+    background-color: #555;
+
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #00aaff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 170, 255, 0.5);
+}
