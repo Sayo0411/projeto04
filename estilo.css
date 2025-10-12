@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to rigth, #00aaff, #00ddff);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2 );
+}
+h1 {
+    text-align: center;
+    color: #0077cc;
+    margin-bottom: 25px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+
+}
+.btn-cadastrar {
+    background-color: #00aaff;
+}
+.btn-cadastrar:hover {
+    background-color: #0077cc;
+}
+
+.btn-limpar {
+    background-color: #00aaff
+}
+
+.btn-limpar:hover {
+    background-color: #0077cc;
+    
+}
+
+.link-cadastro {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.link-cadastro a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.link-cadastro a:hover {
+    text-decoration: underline;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.logo img {
+    width: 100px;  /* tamanho ajustavel*/
+    height: auto;
+    border-radius: 50%;  /* deixa a logo com bordas arrendondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+
+}
+.logo img:hover {
+    transform: scale(1.05); /* pequeno zoom ao passar o mouse */
+}
