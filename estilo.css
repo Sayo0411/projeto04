@@ -8,6 +8,17 @@ body {
     justify-content: center;
     align-items: center;
 }
+.btn-sair {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .container {
     width: 100%;
     max-width: 400px;
