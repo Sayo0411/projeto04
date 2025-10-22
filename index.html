@@ -1,50 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cadastro - Água Pura</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <h1> Cadastro de Produto - Água Pura</h1>
-            <form acation="#" method="post" class="form-cadastro">
-
-                <label for="nome">Código do Produto: </label><br>
-                <input type="text" id="codigo" name="codigo" placeholder="Ex: AG001" required><br><br>
-
-                
-                <label for="nome">Nome do Produto: </label><br>
-                <input type="text" id="nome" name="nome" placeholder="Ex: Água Mineral 500ml" required><br><br>
-
-                <label for="descricao">Descrição do Produto: </label><br>
-                <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva o produto..." required></textarea><br><br>
-
-                <label for="categoria">Categoria: </label><br>
-                <select id="categoria" name="categoria" required>
-                    <option value="">Selecione...</option>
-                    <option value="agua-mineral">Água Mineral</option>
-                    <option value="galão">Galão</option>
-                    <option value="copo">Copos de Agua</option>
-                    <option value="outros">Outro</option>
-                </select><br><br>
-
-                <label for="preco">Preço (R$): </label>
-                <input type="number" id="preco" name="preco" step="0.01" placeholder="0.00" required><br><br>
-
-                <label fro="estoque">Quantidade em Estoque: </label><br>
-                <input type="number" id="estoque" name="estoque" min="0" placeholder="Ex:50" required><br><br>
-
-                <label for="fornecedor">Fornecedor:</label><br>
-                <input type="text" id="fornecedor" name="fornecedor" placeholder="Ex: Água Pura Ltda." required><br><br>
-
-                <div class="botoes">
-                <button type="submit" class="btn-cadastrar">Cadastrar Produto</button>
-                <button type="reset" class="btn-limpar">Limpar</button>
-                </div>
-            </form>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Agua Pura</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Logo Agua Pura">
         </div>
-    </body>
+        
+        <h1>Login - Agua Pura</h1>
+
+        <form action="index.html" method="post" class="form-cadastro">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+            <div class="botoes">
+                <button type="submit" class="btn-cadastrar">Entrar</button>
+                <button type="reset" class="btn-limpas">Limpar</button>
+            </div>
+            
+            <p class="link-cadastro">
+                Ainda não tem uma conta? <a href="login.html">Cadastre-se</a>
+            </p>
+        </form>
+    </div>
+</body> 
 </html>
