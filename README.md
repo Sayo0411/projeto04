@@ -1,2 +1,1 @@
-# projeto04
-Exercicio, criando pagina de login e cadastro de produto.
+# projeto04 - Criando Pagina de login e pagina de cadastro de produto.
